@@ -19,5 +19,6 @@ public class UseStudent {
         System.out.println("Student Salary : "+student.salary);
 
 
+
     }
 }
