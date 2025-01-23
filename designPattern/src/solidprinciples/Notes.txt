@@ -1,0 +1,28 @@
+SOLID Principles Advantages :
+
+S- Single Responsibility Principle (SRP):- A class should have only 1 reason to Change.
+
+O- Open/Closed Principle (OCP): Open for Extension(implements) but Closed for Modification.
+
+L- Liskov Substitution Principle (LSP): If Class B is Subtype of Class A, then we should we able to replace
+                                         object of A with B without breaking the behaviour of the program.
+    ** Class Should extend the capability of parent class not narrow it down.
+
+I- Interface Segregation Principle (ISP): Interfaces should be such,that client should not implement
+                                            unnecessary functions they do not need.
+
+D- Dependency Inversion Principle (DIP): Class Should depend on interfaces rather than concrete class
+
+
+Advantages :
+
+S - Single Responsibility Principle (SRP):-
+-Avoid duplicate code
+-Easy to Maintain
+-Easy to Understand
+-Flexible Software
+-Reduce Complexity
+
+Open/Closed Principle (OCP):
+
+
