@@ -1,0 +1,46 @@
+--->  Has a Relation
+
+---|>  Is a Realtion
+
+Question Asked in Walmart in LLD Round;
+
+Question : Suppose we have open a Flipkart app and Check Samsung S25 Ultra but it is Sold out
+           but in Bottom right show me a button (NOTIFY). If USer Click the Notify Button
+           When we Phone is Available in App User give Notification that Phone is Available
+           Please Buy It.
+
+           So How can You design This Pattern in LLD.
+
+
+
+SOLUTION :
+
+In This Pattern there Are 2 Object
+
+1. OBSERVABLE(STATE)
+2. OBSERVER(USER)
+
+OBSERVABLE (Like a Notify Button): Iski different-different state hogi like, NOT_AVAILABLE,SOLD OUT,LAUNCHED
+            Iska Kaam bus yahi hai jab bhi state change hogi to ya OBSERVER(USER) ko Notification(message) dega.
+
+State- > (1,NOT_AVAILABLE), (SOLD OUT,2) ,(LAUNCHED,3)
+        Agar koi Bhi state Change hogi to OBSERVER(USER) ko Notification Jayaga.
+
+
+
+
+
+IMPLEMENTATION :
+
+OBSERVABLE Interface :
+
+add() like a registration
+1. Method is --  List<ObserverInterface> obj; , add(ObserverInterface obj)  , remove(ObserverInterface obj)   , notify() , setData()
+2. OBSERVABLE Interface Has a RelationShip with OBSERVER Interface
+3. Create a Observable(Concreate) class Is a Relation for Implementation a OBSERVABLE Interface Method
+
+OBSERVER Interface
+
+1. Method is -- update()
+2. Create a OBSERVER(Concreate class) to Implement a Update()
+3. OBSERVER(Concreate class) Has a Relationship with Observable(Concreate) class

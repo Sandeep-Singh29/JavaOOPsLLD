@@ -3,6 +3,14 @@
 
 ---|>  Is a Realtion
 
+
+@@@   USE CASE  @@@
+
+Jab bhi hum Parent Child bana raha hai.
+Aur Hama laga ki multiple child class same code use kar rahi hai jo ki parent class main nahi hai.{Functionality}
+Jaisa Do child Class ko Same Functionality ki need hai but Parent class main nahi hai.
+
+
 Strategy Design Pattern :
 
 It is using with Inheritance
@@ -37,3 +45,5 @@ IMPLEMENTATION
 4. Write a      drive(){
                         return strategy.drive(); // drive method is calling to Interface DriveStrategy and return the Implementation of drive();
                      }
+5. Create Sport And OffRoad (Child) and extend with Vehicle.
+6. Create a Constructor with super and super(new Strategytype)

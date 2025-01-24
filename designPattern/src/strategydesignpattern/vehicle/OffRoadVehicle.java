@@ -1,4 +1,4 @@
-package strategydesignpattern;
+package strategydesignpattern.vehicle;
 
 import strategydesignpattern.drivestrategy.SpecialDriveStrategy;
 
