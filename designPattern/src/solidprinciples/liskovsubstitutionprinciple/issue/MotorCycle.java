@@ -1,4 +1,4 @@
-package solidprinciples.liskovsubstitutionprinciple;
+package solidprinciples.liskovsubstitutionprinciple.issue;
 
 public class MotorCycle implements Bike {
 

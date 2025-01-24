@@ -1,4 +1,4 @@
-package solidprinciples.liskovsubstitutionprinciple;
+package solidprinciples.liskovsubstitutionprinciple.issue;
 
 public class BiCycle implements Bike {
     boolean isEngine = false;

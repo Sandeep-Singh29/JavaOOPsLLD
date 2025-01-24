@@ -1,0 +1,49 @@
+
+--->  Has a Relation
+
+---|>  Is a Realtion
+
+
+@@@   USE CASE  @@@
+
+Jab bhi hum Parent Child bana raha hai.
+Aur Hama laga ki multiple child class same code use kar rahi hai jo ki parent class main nahi hai.{Functionality}
+Jaisa Do child Class ko Same Functionality ki need hai but Parent class main nahi hai.
+
+
+Strategy Design Pattern :
+
+It is using with Inheritance
+
+ISSUE :
+
+1. Class Vehicle(Parent) iska pass drive(){Normal Drive} hai.
+2. Class SportVehicle(Child) extend Class Vehicle(Parent) par ya override kar raha hai drive(){Special drive.}
+3. Class OffRoadVehicle(Child) extend Class Vehicle(Parent) par ya override kar raha hai drive(){Special drive.}
+4. Class NormalVehicle extend Class Vehicle(Parent) par ya parent drive() ko hi use kar raha.
+
+Issue Faced :
+
+Isma Hum class ko Extend kar raha hai par {SportVehicle} and {OffRoadVehicle} Parent Method ko use hi nahi kar raha
+Jaha Same Behaviour multiple child mein use hota hai. Aur Parent Method ko Use nahi kiya jata waha ya Problem ati hai.
+Jaha Par Child Method ka Same behaviour Ho jata hai Waha Code re-usebulity nahi hoti.
+
+
+SOLVED : Using Strategy Design Pattern
+
+INTERFACE
+1.Create DriveStrategy Interface with drive()
+2. Create a NormalDrive(Concreate Class) for Implementation -> override drive(){sout("Normal Drive")}
+3. Create a SpecialDrive(Concreate Class) for Implementation -> override drive(){sout("Special Drive")}
+
+
+IMPLEMENTATION
+
+1. Create Vehicle class and Has a---> Relation with DriveStrategy{}
+2. Initialized a DriveStrategy strategy; in Vehicle{}
+3. And Create a Vehicle Constructor with strategy parameter.
+4. Write a      drive(){
+                        return strategy.drive(); // drive method is calling to Interface DriveStrategy and return the Implementation of drive();
+                     }
+5. Create Sport And OffRoad (Child) and extend with Vehicle.
+6. Create a Constructor with super and super(new Strategytype)
