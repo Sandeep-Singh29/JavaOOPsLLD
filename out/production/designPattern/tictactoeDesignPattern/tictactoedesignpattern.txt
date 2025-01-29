@@ -1,0 +1,27 @@
+Tic Tac Toe Design Pattern :
+
+Game Need and follow steps :
+
+1. Two Player >> P1 and P2
+2. Each Player Selected Either X or 0 Sign(Piece).
+3. There are 3*3 matrix.
+4. If any One player first complete all 3 Box with same *Sign* either Vertical Matrix ,
+        Horizontal Matrix or Diagonal Matrix . Then the user will win.
+
+
+
+How To Design SOLUTION :
+
+1. Create a Enum PieceType.
+2. Create a Class PlayingPiece and it will  :: Has a Relationship with PieceType.
+3. Create a Two Class PlayingPieceO and PlayingPieceX and extends to PlayingPiece :: it will Is a relationship with PlayingPieceO and PlayingPieceX.
+4. Create a Board Class to Manage a Matrix and Plating with Piece
+   Board have :: Size of matrix expamle : 3*3
+   Board have PieceType[][] = piece :: It will ** HAS-A ** relationship with PlayingPiece
+5. Create a Player ::  And Player ** HAS-A ** relationship with PlayingPiece
+   Name : XYZ
+   PieceType : X
+
+6. Main Class Name as TicTacToeMainTest :: It will ** HAS-A ** relationship with Player and Board
+   List<Player> player;
+   Board board;

@@ -1,0 +1,29 @@
+Factory Design Pattern :
+
+When we Used :
+
+Jab Mera Pas Multiple Input ho aur ki basis par mujhe kuch create karna ho
+Jiski Implementation milagi use main return kar duga.
+
+
+Example : There are different different shape
+
+1.Circle
+2.Rectangle
+3.Square
+4.Triangle
+
+If user Input Circle than out will we circle.
+
+
+** Lets Understand how to implement a Factory Design Pattern **
+
+1. First Create a Shape Interface with draw() method
+2. Now Create Different Different Class And implement a draw() >>>  So this will  **is-a** relationship
+3. Than we have create a Class ShapeFactory and Inject a Shape interface
+        -- >> So this will  ShapeFactory -- has a -- RelationShip with Shape interface
+4. Than than we have create a method getShape(String shape) in   ShapeFactory -- And in this method we have
+     write logic if user input circle than we have return a new Circle Object;
+
+
+

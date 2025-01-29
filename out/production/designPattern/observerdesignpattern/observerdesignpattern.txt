@@ -1,6 +1,6 @@
 --->  Has a Relation
 
----|>  Is a Realtion
+---|>  Is a Relation  --- Inheritance
 
 Question Asked in Walmart in LLD Round;
 

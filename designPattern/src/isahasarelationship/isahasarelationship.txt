@@ -1,0 +1,42 @@
+#Is a Relationship : It is inheritance
+
+
+
+#has a Relationship : Mean one class is depend to other
+
+it has 3 type:
+
+1.Association
+2.Aggregation
+3.Composition
+
+
+Association : Jab 2 ya 2 sa jadha class ka Beech main Relationship
+              Jab **Ek class dusra Class ka Object ko use kara**
+              Jaisa Hum *Aggregation And Composition* main dekh rah hai
+
+
+** But Aggregation And Composition is a part of *Association*
+
+Aggregation : Depend but it is lousily Coupled
+              Suppose there are Two Class University and Department
+              *University is dependent to Department*
+              So there are loose coupling.
+              If One Department is remove than no issue in University.
+
+Composition : Depend but it is Tightly Coupled
+              Suppose we have Two class Car And Engine
+              *Car is Depend to Engine*
+              So car is Tightly coupled with Engine
+              If Engine in not in Car than we have not create a Car.
+
+
+
+
+
+_______________________________________________________________________________________
+
+Is a RelationShip And Has a RelationShip
+
+MARUTI *is-a* CAR
+MARUTI *has-a* ENGINE

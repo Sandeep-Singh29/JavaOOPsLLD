@@ -1,0 +1,30 @@
+What is Decorator Design Pattern :
+
+Example 1.
+
+Suppose in pizza shop there are only pizza base.
+Customer 1 is come and order to garlic topping pizza.
+Customer 2 is come and order to garlic topping with corn pizza.
+Customer 3 is come and order to garlic topping , corn with paneer pizza.
+Customer 4 is come and order to garlic topping , corn , paneer with extra cheese pizza.
+
+@@ So you know that there are some decoration in the pizza and there are like a loop.
+there are some add in pizza base.
+
+Example 2.
+
+Main lo hyundai ka pass ek base model main car hai.
+
+User 1 Us car main seat customize karna chata hai
+User 2 Us car main seat ka sath sound bhi customize karna chata hai
+User 3 Us car main seat ka sath sound aur allow wheel bhi customize karna chata hai
+
+
+@@
+to aap dekh raha hai ek base car main hum kaisa update lkar raha hai.
+Jo ek type sa repeat process hai same like as overload
+
+
+
+SOLUTION ::::
+

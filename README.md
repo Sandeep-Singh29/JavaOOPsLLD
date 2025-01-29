@@ -5,21 +5,21 @@
 ---
 
 ## Principles
-- **S.O.L.I.D Principles**
+- **S.O.L.I.D Principles** ✅
 
 ---
 
 ## Design Patterns
 
 ### Creational Patterns
-- **Factory Pattern**
-- **Abstract Factory Pattern**
+- **Factory Pattern** ✅
+- **Abstract Factory Pattern** ✅
 - **Singleton Pattern**
 - **Builder Pattern**
 - **Prototype Pattern**
 
 ### Structural Patterns
-- **Decorator Pattern**
+- **Decorator Pattern** ✅
 - **Composite Pattern**
 - **Adapter Pattern**
 - **Proxy Pattern**
@@ -28,8 +28,8 @@
 - **Flyweight Pattern**
 
 ### Behavioral Patterns
-- **Strategy Pattern**
-- **Observer Pattern**
+- **Strategy Pattern** ✅
+- **Observer Pattern** ✅
 - **Chain of Responsibility Pattern**
 - **State Pattern**
 - **Command Pattern**
@@ -53,7 +53,7 @@
 
 ### Games
 - Design **Snake n Ladder Game**
-- Design **Tic-Tac-Toe Game**
+- Design **Tic-Tac-Toe Game**  ✅
 - Design **Chess Game**
 - Design **Bowling Alley Machine**
 
