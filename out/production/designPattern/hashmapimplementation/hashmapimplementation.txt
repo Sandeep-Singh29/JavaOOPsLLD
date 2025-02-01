@@ -1,0 +1,61 @@
+HASHMAP USE CASE  & IMPLEMENTATION
+
+KNOW ABOUT HASHMAP :
+
+* Work on Key Value Pairs.
+* In HashMap<>() Constructor we have not give any value;
+
+
+-> What is default Size = 16 -- >> Aur HashMap Main size hamsa 2 res power main hoti hai.. Jaisa , 2pow0,2pow2,2pow3...
+                                        for collision management.
+-> What is loadFactor.
+-> What is Collision.
+
+
+Step 1 : Define : Map<T,T> map = new HashMap<>();
+
+Step 2 : when we declare a Map -->> 16 size, with a load factor of 0.75.
+       ## index = hashCode % capacity;
+Index    key     value       hasCode     next
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10      age    17
+11
+12
+13      name    sandeep      713872            -> address  kanpur  u621838  ->
+14
+15
+
+Step 3 :
+
+    if we have put any value in Map Using -- >  map.get("name","sandeep");
+        * key = name
+        * generate key name hashCode using hasCode()
+        * suppose hashcode calculate a hascode and give index = 13
+        * so name key with value set in 13 box
+     if we have put any value in Map Using -- >  map.get("age",17);
+         * key = age
+         * generate key age hashCode using hasCode()
+         * suppose hashcode calculate a hasCode and give index = 10
+         * so age key with value set in 10 box
+      if we have put any value in Map Using -- >  map.get("address","kanpur");
+          * key = address
+          * generate key address hashCode using hasCode()
+          * suppose hashcode calculate a hasCode and give index = 13
+          * so address key with value set in 10 box
+          * This time collision occurs and the same index found
+          * but we have store a data in same index but we have store as a linkedlist formate
+          * in same index we have save using next pointer
+
+
+HOW TO CALCULATE A LOAD FACTOR :
+    * Default is .75  intitial is 2pow4 = 16
+    * If hashmap fill will 75% then we have resize the map with 2pow5 size is = 32

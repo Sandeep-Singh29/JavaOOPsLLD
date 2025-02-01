@@ -22,7 +22,7 @@
 - **Decorator Pattern** ✅
 - **Composite Pattern**
 - **Adapter Pattern**
-- **Proxy Pattern**
+- **Proxy Pattern** ✅
 - **Bridge Pattern**
 - **Façade Pattern**
 - **Flyweight Pattern**
@@ -30,7 +30,7 @@
 ### Behavioral Patterns
 - **Strategy Pattern** ✅
 - **Observer Pattern** ✅
-- **Chain of Responsibility Pattern**
+- **Chain of Responsibility Pattern** ✅
 - **State Pattern**
 - **Command Pattern**
 - **Interpreter Pattern**
@@ -46,10 +46,10 @@
 ## System Design Topics
 
 ### Simple Applications
-- Design **Notify-Me Button Functionality**
-- Design **Pizza Billing System**
-- Design **Logging System**
-- Design **Vending Machine**
+- Design **Notify-Me Button Functionality** ✅
+- Design **Pizza Billing System** ✅
+- Design **Logging System** ✅
+- Design **Vending Machine** ✅
 
 ### Games
 - Design **Snake n Ladder Game**
@@ -68,8 +68,8 @@
 - Design **Rate Limiter**
 
 ### Applications
-- Design **BookMyShow** & Concurrency Handling
-- Design **Splitwise** & Simplify Algorithm / Optimal Accounting Balancing
+- Design **BookMyShow & Concurrency Handling**
+- Design **Splitwise & Simplify Algorithm / Optimal Accounting Balancing**
 - Design **CricBuzz / CricketInfo**
 - Design **True Caller**
 - Design **Car Booking Service like Ola, Uber**

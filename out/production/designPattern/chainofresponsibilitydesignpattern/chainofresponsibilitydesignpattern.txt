@@ -1,0 +1,26 @@
+Chain of Responsibility Design Pattern || Design Logging System
+
+Application Used :
+
+1. ATM
+2. Vending Machine
+3. Design Logger(Amazon)
+
+USE CASE :
+
+Maan lo jaisa hum ATM main amount withdraw karna jata hai to hum koi Amount dalta hai
+    par Bo work kaisa karta hai.
+
+1. In Atm there are many receiver to process there money and after all the count and process they will return the money to user.
+2. ATM main internally multiple receiver hota hai
+    * Ek receiver 500 ka notes process karage.
+    * Ek receiver 200 ka notes process karage.
+    * Ek receiver 100 ka notes process karage.
+
+
+3. CASE :
+     * Agar client na request ki hai  1000 ki to 1st receiver main jayaga and preoceess karaga aur money withdraw.
+     * Agar client na request ki hai  200 ki to 1st receiver main jayaga aur ispa 200 nahi hai to ya next receiver ko send karaga aur money withdraw.
+     * same different different process main hoga.
+
+Client ->> | R1-500 | R2-200 | R3-100 |-- there are n.. number of R(Receiver)

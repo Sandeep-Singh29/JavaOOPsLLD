@@ -1,0 +1,12 @@
+Singleton Design Pattern :
+
+The singleton object is create only 1 time while the server is running
+
+Different ways to create a Singleton Class.
+
+1. Eager Initialization
+2. Lazy Initialization
+3. Synchronization Block
+4. Double Check Lock(there are memory issue,resolved through volatile instance variable)
+5. Bill Pugh Solution
+6. Enum Singleton
