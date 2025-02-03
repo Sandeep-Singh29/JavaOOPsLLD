@@ -10,7 +10,8 @@ public class SynchronizationSingleton {
         DBConnection instance = DBConnection.getInstance();
         System.out.println(instance.hashCode());
         DBConnection instance1 = DBConnection.getInstance();
-        System.out.println(instance1.hashCode());
+        System.out.println(instance1.hashCode()
+        );
     }
 }
 

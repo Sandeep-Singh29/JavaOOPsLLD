@@ -11,8 +11,6 @@ import factorydesignpattern.shape.Square;
 
 public class ShapeFactory {
 
-    private  Shape shape;
-
 
     public Shape getShape(String shape) {
         if (shape.contains("rec")) {

@@ -1,0 +1,18 @@
+USE CASE NULL OBJECT PATTERN :
+
+Issue :
+
+# Jab bhi hum kisi method sa kuch get karta hai by employee ** but ma emp null bhejta hu to NPE ** ayaga.
+# Agar Maina NP ko handle kar liya if(emp != null) but yeah muliple class main hai to mujhe har time if(emp != null)
+    same line likhni hogi.
+
+# Isko avoid karna ka liya NULL OBJECT PATTERN Aya.
+
+
+
+
+NULL OBJECT PATTERN POINT WHEN THEY WORK :
+
+* A null object replaces NULL return type.
+* No need to put IF CHECK for  Checking NULL.
+* Null Objects reflects do nothing or Default behaviour.

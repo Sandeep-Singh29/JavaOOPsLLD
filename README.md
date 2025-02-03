@@ -14,9 +14,9 @@
 ### Creational Patterns
 - **Factory Pattern** ✅
 - **Abstract Factory Pattern** ✅
-- **Singleton Pattern**
+- **Singleton Pattern** ✅
 - **Builder Pattern**
-- **Prototype Pattern**
+- **Prototype Pattern** ✅
 
 ### Structural Patterns
 - **Decorator Pattern** ✅
@@ -39,7 +39,7 @@
 - **Memento Pattern**
 - **Template Method Pattern**
 - **Visitor Pattern**
-- **Null Object Pattern**
+- **Null Object Pattern** ✅
 
 ---
 
