@@ -1,0 +1,41 @@
+BUILDER DESIGN PATTERN : it is know as a Creational design pattern and they have build the
+                        STEP by STEP Object Creation.
+
+EXAMPLE :   If we have build a house we need.
+
+*Window
+*Door
+*Floor
+*Wall
+*Roof
+*Stair
+*etc.
+
+How to Build a House STEP BY STEP using Builder to create or Build a House.
+
+add Window -- > Build a Builder Object
+add Door -- > Build a Builder Object
+add Floor -- > Build a Builder Object
+add Wall -- > Build a Builder Object
+add Roof -- > Build a Builder Object
+add Stair -- > Build a Builder Object
+add etc..    and if all steps are complete then we have build a House using build()
+
+and after all Step build a House.
+
+
+
+HOW TO CREATE A BUILDER DESIGN
+
+1. We have create a Method which return type is Builder and for one parameter not give a multiple like as a Constructor.
+2. I create a Constructor with Builder Parameter
+
+Like :  Student(Builder b){
+        this.roll = b.roll;
+        this.name = b.name;
+        }
+
+**** STUDENT (HAS-A)-->> STUDENTBUILDER
+3. Craete a Student Class with field and Create a Constructor with StudentBuilder
+ and set value using builder.
+4. Create a StudentBuilder

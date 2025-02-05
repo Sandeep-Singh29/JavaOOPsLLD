@@ -1,0 +1,19 @@
+FACADE DESIGN PATTERN :
+
+When we used this Design pattern::
+jab bhi hama system complexity hide karni ho aur client ko naa dekhni ho ki jab bhi client kuch kaam kara bo kaam ho jaya par use
+pata na ho ki us kaam karna ka liya kya kiya ho back side main.
+
+Example 1 SCHENERIO 1:
+
+There are design of Employee how to insert step by step.
+
+1. Create a EmployeeDAO with method --> insert(),create(),getById(id),getByEmail(email) and other method.
+2. Create a EmployeeFacade know only 2 method to perform a action --- So we need EmployeeDAO
+   and the Relation b/w  (EmployeeFacade  {HAS-A}----> EmployeeDAO) and they have used a insert(),create() method
+3. Create a EmpClient and its hold a ! method to getEmpDetails() ---  A=and they have    **EmployeeFacade **
+    So the relation b/w  (EmpClient {HAS-A}---->>> EmployeeFacade) and use the getEmployeeById()
+
+Example 1 SCHENERIO 2:
+
+

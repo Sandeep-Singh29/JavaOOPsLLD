@@ -1,0 +1,27 @@
+ADAPTER DESIGN PATTERN :
+
+Adapter design pattern ek Bridge ka kaam karta hai / isko beech ka mediator bhi bol sakta hai.
+
+Example 1 :
+
+Suppose MERI meeting ek Germany ka CLIENT sa hai Aur CLIENT germany main hi bolta hai but mujhe germany nahi ati
+to Ek Mera FRIEND hai jo Germany smjh leta hai .
+Client jo bolta hai mera friend Convert karka mujhe Hindi main samjha deta hai.
+
+** isma sabhi ka role kya hai
+
+GERMANY_CLIENT(client hai) ----------> FRIEND(ADAPTER)-----------> ME(EXISTING ADAPTER)
+
+Main yahi hai adaptor main.
+
+agar STARTING aur END User main koi issue ata hai to Adapter isko solve karta hau like a ADAPTER(Mediator)
+
+
+EXAMPLE 2:
+
+Pound to KG Calculator
+
+Most of the people is not understand weight in Pound so
+
+Client is put request in pound and we need to return and as In KG
+and in Mid Man ADAPTER(Mediator) is Convert a Pound to Kg and return to Client.

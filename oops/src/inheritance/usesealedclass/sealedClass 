@@ -1,0 +1,5 @@
+Java sealed classes ek restriction-based inheritance mechanism provide karti hain, jo control deti hai ki kaun kaun se classes ya interfaces ek class ko extend ya implement kar sakti hain.
+
+⚡ Kab Se Aaya?
+Java 15 me experimental feature ke roop me introduce hua
+Java 17 me officially stable bana diya gaya
