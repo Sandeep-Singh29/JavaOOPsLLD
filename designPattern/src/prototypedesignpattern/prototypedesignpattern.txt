@@ -1,2 +1,37 @@
-PROTOTYPE DESIGN PATTERN :
+PROTOTYPE DESIGN PATTERN : It is used when we have to make copy/clone from Existing Object.
 
+Basically in PROTOTYPE we have clone tha base Object and change into new Object.
+
+
+ISSUE WHEN WE FOLLOW THIS PATTERN ::
+Suppose :
+
+Student Class :
+int age , String name , private int rollNumber.
+
+1. Create a Non Parameter Constructor
+2. Create a All Parameter Constructor
+
+3. Create a Main Test Class
+4. Create a base Student :: > >
+ **Student baseStudent = new Student(27,"Sandeep,100); // baseStudent object created
+
+5.Now Clone all filed in Other cloneStudent Object;
+
+6. Student cloneStudent = new Student();
+cloneStudent.name = baseStudent.name;
+cloneStudent.age = baseStudent.age;
+cloneStudent.rollNumber = baseStudent.rollNumber; // In this line we have error because rollNumber is private so we have not access it.
+
+Problem in this Pattern if we have direct access and clone object.
+
+Suppose we have multiple field and craete a multiple class of clone object
+so we have manually change assign filed and clone . It will take a lots of time
+and also private field and access so we have not clone the baseObject.
+
+
+
+SOLVE PROBLEM FOR THIS PATTERN ::
+
+1. Create a base Interface and create a abstract method clone().
+2. If any class need and prototype then we have to implement a clone().

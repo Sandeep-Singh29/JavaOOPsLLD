@@ -1,0 +1,22 @@
+Bridge Design Pattern USE CASE :
+
+Bridge Pattern ka kaam hota hai abstraction aur implementation ko alag karna taki dono independently evolve kar sakein.
+Iska fayda yeh hota hai ki agar implementation change ho bhi jaaye toh abstraction par koi farq na pade.
+
+EXample 1 :
+
+There are 3 steps :
+
+1. Create a Abstract Class(LivingThings) with method breathProcess()
+  * this class relation (LivingThings {HAS-A}----> BreathImplementor) interface.
+  * LivingThings has 3 implement method class --> FishBreathProcess , HumanBreathProcess , TreeBreathProcess.
+  * All class create a Constructor with BreathImplementor(Interface) with calling super(BreathImplementor)
+  * all class are implemented a breathProcess().
+
+2. Create a interface Implementor(BreathImplementor)  with method breath();
+   * this Interface implemented with 3 Class
+   * AirBreathImplementor , LandBreathImplementor , WaterBreathImplementor;
+   * All 3 Class implement a breath();
+
+
+

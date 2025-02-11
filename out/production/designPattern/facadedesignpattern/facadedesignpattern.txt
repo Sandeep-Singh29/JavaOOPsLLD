@@ -14,6 +14,16 @@ There are design of Employee how to insert step by step.
 3. Create a EmpClient and its hold a ! method to getEmpDetails() ---  A=and they have    **EmployeeFacade **
     So the relation b/w  (EmpClient {HAS-A}---->>> EmployeeFacade) and use the getEmployeeById()
 
-Example 1 SCHENERIO 2:
+#Example 2 SCHENERIO 2:
 
+When we have a Multiple Class
+Like : ProductDAO , Payment , Invoice , Notification
+
+Than we have to create a ProductFacade and we have  Create a Object of all Class in Constructor
+and after we have use all class method in ProductFacade.
+
+
+
+#Example 3 SCHENERIO 3:
+Facade Using other Facade
 
