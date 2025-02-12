@@ -1,0 +1,26 @@
+INTERPRETER DESIGN PATTERN : It is working as a Context Like : Hi,Stop,Raise Hand,etc.
+- It is basically for expression like (a+b)
+- when we use : when some mathematics expression are come to frame like : (a+b)*(c+d)-(a*b)
+
+
+Heriharracy :
+
+             Components Involve
+            |                 |
+       Context              Abstract Expression
+                          |                      |
+                   Terminal Expression         Non-Terminal Expression
+
+
+
+
+
+UML Diagram ::
+
+
+1. Abstract Expression Interface  have interpret(context)
+2. Abstract Expression ---- IS-A---->   Relationship
+         -Terminal Expression with interpret(context) implement method
+         -Non-Terminal Expression with interpret(context) implement method
+3. Client ---->> Has-A --->>>   Abstract Expression Interface
+4. Client ---->> Has-A --->>>   Context

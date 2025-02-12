@@ -15,16 +15,16 @@
 - **Factory Pattern** ✅
 - **Abstract Factory Pattern** ✅
 - **Singleton Pattern** ✅
-- **Builder Pattern**
+- **Builder Pattern** ✅
 - **Prototype Pattern** ✅
 
 ### Structural Patterns
 - **Decorator Pattern** ✅
 - **Composite Pattern**
-- **Adapter Pattern**
+- **Adapter Pattern** ✅
 - **Proxy Pattern** ✅
-- **Bridge Pattern**
-- **Façade Pattern**
+- **Bridge Pattern** ✅
+- **Façade Pattern** ✅
 - **Flyweight Pattern**
 
 ### Behavioral Patterns
@@ -33,11 +33,11 @@
 - **Chain of Responsibility Pattern** ✅
 - **State Pattern**
 - **Command Pattern**
-- **Interpreter Pattern**
+- **Interpreter Pattern** ✅
 - **Iterator Pattern**
 - **Mediator Pattern**
 - **Memento Pattern**
-- **Template Method Pattern**
+- **Template Method Pattern** ✅
 - **Visitor Pattern**
 - **Null Object Pattern** ✅
 

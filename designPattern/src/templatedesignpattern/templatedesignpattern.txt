@@ -1,0 +1,26 @@
+TEMPLATE DESIGN PATTERN :
+
+WHEN WE REQUIRED AND USE :
+- When you want all classes to follow the specific steps to process the task but also
+  Need to provide the flexibility that each class can have their own logic in that specific steps.
+
+
+REAL WORLD EXAMPLE :
+
+
+- Main client hu aur main payment send kar raha hu Aur yaha par different-2 Payment mode hai
+1. Using UPI
+2. Using Merchant
+3. Using Card
+4. Using Bussiness Account
+
+- Sabhi ka Payment Flow same hoga
+- But Different hoga logic Like :
+* Merchant main Fees Charges hai : 2%
+* Bussiness main Fees Charges hai : 0%
+* UPI main Fees Charges hai : 0%
+* Card main Fees Charges hai : 5%
+
+- To Jab bhi hum Payment Process karaga to Individual ka Logic implement karaga.
+
+

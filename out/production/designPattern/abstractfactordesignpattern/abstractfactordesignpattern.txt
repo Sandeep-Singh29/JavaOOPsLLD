@@ -1,0 +1,2 @@
+WHAT IS ABSTRACT FACTORY PATTERN : It is a Factory of Factory Design Pattern.
+
